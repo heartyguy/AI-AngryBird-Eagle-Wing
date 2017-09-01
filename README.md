@@ -1,4 +1,4 @@
-![alt text](/docs/img.png)
+![alt text](/docs/eagle.png)
 
 # AI-AngryBird-Eagle-Wings
 *Eagle's Wings* is an artificial player for the popular video game Angry Birds; it participated and represented [University of Waterloo](https://uwaterloo.ca/) and [Zazzle Inc.](https://www.zazzle.com/) in the 2016 and the 2017 [Angry Birds AI Competitions](http://aibirds.org).  
