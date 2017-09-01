@@ -1,11 +1,11 @@
 # AI-AngryBird-Eagle-Wings
-*Eagle's Wings* is an artificial player for the popular video game Angry Birds; it participated and represented University of Waterloo and Zazzle Inc. in the 2016 and the 2017 [Angry Birds AI Competitions](http://aibirds.org).  
+*Eagle's Wings* is an artificial player for the popular video game Angry Birds; it participated and represented [University of Waterloo](https://uwaterloo.ca/) and [Zazzle Inc.](https://www.zazzle.com/) in the 2016 and the 2017 [Angry Birds AI Competitions](http://aibirds.org).  
 
 *Eagle's Wings* is the [reigning champion of the competition](http://aibirds.org/angry-birds-ai-competition/competition-results.html)!  
 
 It employs a simple multi-strategy affordance based structural analysis with a manually tuned utility to decide between the strategies. It was develped on top of a fork of the agent from Team DataLab, the champion in 2014. Both the *tactic gameplay* and the *strategic gameplay* are coded in java. Major efforts were made to employ machine learning method [xgboost](https://github.com/dmlc/xgboost) and deep reinforcement learning, but they do not perform nearly as well as the simple model.
 
-## Running the agent (if you have not changed anything and you have installed everything)
+## Running the agent (if you have not changed anything)
 
  1. Open Chrome on the webpage http://chrome.angrybirds.com and make sure you are using the **SD version** of the game 
  1. Currently, http://chrome.angrybirds.com is taken down, please refer to http://aibirds.org/basic-game-playing-software/chrome-issues.html  (require team registration and login)
@@ -25,5 +25,5 @@ ABSoftware.jar is all you need for running
 
 ## Developer guide
 
-Refer to [Developer Guide]() for tuning and strategy outline
+Refer to [Developer Guide](/docs/developerguide.md) for tuning and strategy outline
 
