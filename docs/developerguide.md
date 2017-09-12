@@ -33,7 +33,7 @@ Then, I tried to tune the utility using xgboost by firing thousands of shots for
 
 Finally, I noticed that a small portion of the shots just misses the pivotal points(weak points in a structure, a small pigs, a small round object) by a tiny margin but adjusting the trajectory planning code for their sake would make other shots significantly worse. Thus, I implemented a logic where for levels that have been tried once, add a small random factor to some trajectories. This is a crude way of adding some adaptation and some non determinism into the agent for improving score on retries.
 
-##Location of important files:
+## Location of important files:
 
 **/src/ab/demo/HeartyTian2017MainEntry.java**   
 
