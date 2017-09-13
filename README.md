@@ -5,7 +5,7 @@
 
 *Eagle's Wings* is the [reigning champion of the competition](http://aibirds.org/angry-birds-ai-competition/competition-results.html)!  
 
-It employs a simple multi-strategy affordance based structural analysis with a manually tuned utility to decide between the strategies. It was develped on top of a fork of the agent from Team DataLab, the champion in 2014. Both the *tactic gameplay* and the *strategic gameplay* are coded in java. Major efforts were made to employ machine learning method [xgboost](https://github.com/dmlc/xgboost) and deep reinforcement learning. Insights learned from xgboost models were used to formulate the strategies. Key values and utility are learned from 40k shots. 
+It employs a simple multi-strategy affordance based structural analysis with a manually tuned utility to decide between the strategies. It was develped on top of a fork of the agent from Team DataLab, the champion in 2014. Both the *tactic gameplay* and the *strategic gameplay* are coded in java. Major efforts were made to employ machine learning method [xgboost](https://github.com/dmlc/xgboost) and deep reinforcement learning. Insights learned from xgboost models were used to formulate the strategies. Key values and utility are learned from 40k shots. Read the description at [Eagle's Wing pdf](/docs/eaglewing2017.pdf).
 
 ## Running the agent (if you have not changed anything)
 
